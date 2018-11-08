@@ -22,6 +22,18 @@ class CmdPrompt
     def Exit()
         system("kill $BASHPID")
     end
+
+    def RunExt(file)
+        system("cd ../../main/ext")
+        system("ruby " file + ".rb")
+        system("cd ../../core/rb")
+    end
+end
+
+class Devs
+    def Ask(name)
+        print name + "[ask]> "
+    end
 end
 def parse(input)
     if input == "print"

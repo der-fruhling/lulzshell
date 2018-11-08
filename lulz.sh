@@ -5,8 +5,6 @@ clear
 echo "Begin File creation" | lolcat -a --duration=90
 mkdir lulos
 echo "> Cores" | lolcat
-cat installfiles/lulzOS.ifi > lulzOS.rb
-echo "-> lulzOS.rb" | lolcat
 cat installfiles/MainFiles.zpfi > MainFiles.zip
 echo "> Main Files" | lolcat
 cat installfiles/Core.zpfi > Core.zip
