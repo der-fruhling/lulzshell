@@ -16,4 +16,4 @@ mv core lulos/core
 mv main lulos/main
 echo "Starting LulSHELL..." | lolcat -a --duration=45
 cd lulos/core
-begin.sh
+./begin.sh
